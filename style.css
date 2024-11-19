@@ -164,7 +164,7 @@ body {
 @media (max-width: 768px) {
   .container {
     width: 80%;
-    margin: 155px auto 0px 55px;
+    margin: 150px auto 0px 55px;
     height: auto;
   }
   .ico {
@@ -191,7 +191,7 @@ body {
 @media (max-width: 480px) {
   .container {
     width: 90%;
-    margin: 155px auto 0px 55px;
+    margin: 155px auto 0px 50px;
     height: auto;
   }
   .ico {
