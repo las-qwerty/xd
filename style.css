@@ -24,7 +24,7 @@ body {
   display: block;
   width: 320px;
   height: 320px;
-  background-color: #ff4081;
+  /* background-color: #ff4081; */
   position: relative; /* Add this line */
 }
 .open .ico {
@@ -69,9 +69,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.ico2:before, .ico2:after {
-  color: #e91e63;
-}
+
 .ico:before {
   z-index: 3;
 }
@@ -164,7 +162,7 @@ body {
 @media (max-width: 768px) {
   .container {
     width: 80%;
-    margin: 150px auto 0px 55px;
+    margin: 150px auto 0px 40px;
     height: auto;
   }
   .ico {
@@ -191,7 +189,7 @@ body {
 @media (max-width: 480px) {
   .container {
     width: 90%;
-    margin: 155px auto 0px 50px;
+    margin: 155px auto 0px 40px;
     height: auto;
   }
   .ico {
