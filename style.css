@@ -24,10 +24,17 @@ body {
   display: block;
   width: 320px;
   height: 320px;
+  background-color: #ff4081;
+  position: relative; /* Add this line */
 }
 .open .ico {
   animation: open 4s;
   transform: scale(10);
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff4081; /* Ensure background color is set */
+  top: 0; /* Add this line */
+  left: 0; /* Add this line */
 }
 .ico .title {
   position: absolute;
